@@ -1,0 +1,92 @@
+.Categorys{
+    /* background-color: red; */
+    height: 60vh;
+    display: flex;
+    /* width: 9=0%; */
+    margin: auto;
+}
+
+.Categorys .slide{
+    /* background-color: rgb(11, 6, 31); */
+    color:white;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+
+}
+
+
+.carroseu{
+    /* background-color: antique-white; */
+}
+
+.Card{
+    background-image: url("https://iili.io/dR1Eyiv.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    width: 98vw;
+    background-color: rgb(16, 9, 24);
+}
+
+/* 
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  background-position: center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding: 8px 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: red;
+}
+
+.swiper-button-prev {
+  background-image: url("/box-arrow-in-left.svg");
+}
+
+.swiper-button-next {
+    color: red;
+  background-image: url("/box-arrow-in-right.svg");
+}
+
+
+.swiper-pagination-bullet{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    } */
+    
+    div .swiper-button-next,
+    div .swiper-button-prev {
+      background-color: white;
+      background-position: center;
+      background-size: 40px;
+      background-repeat: no-repeat;
+      /* padding: 2px 8px; */
+      border-radius: 100%;
+      border: 1px solid black;
+      color: gray;
+      width: 11vw;
+      height: 11vw;
+      opacity: 0.9;
+      margin: 0 1%;
+    }
+
+    .swiper-button-prev {
+      background-image: url("/box-arrow-in-left.svg");
+    }
+
+    .swiper-button-next {
+      background-image: url("/box-arrow-in-right.svg");
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        scale: 0.3;
+        content: "";
+    }
+
