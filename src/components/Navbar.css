@@ -1,0 +1,38 @@
+.Navbar{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    background-color: #0F0E0E;
+    /* border-bottom: solid 1px #33372C; */
+    position: fixed;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    justify-content:space-between;
+    align-items: center;
+}
+.Navbar img{
+    margin-left: 6%;
+    width: 40%;
+    height: 4.5vh;    
+}
+.Navbar svg{
+    /* margin-left: 1%; */
+    color: white;
+    margin-top: 10%;
+    scale: 1.7;
+    /* margin-right: 5%; */
+}
+.Navbar .menu{
+    margin-top: 0%;
+    margin-left: 4%;
+    scale: 2.5;
+}
+.Navbar .add{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    /* background-color: red; */
+    /* /* height: 7vh; */
+    width: 15%;
+    margin-right: 3%;
+}
