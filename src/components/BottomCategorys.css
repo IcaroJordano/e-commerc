@@ -1,0 +1,20 @@
+.BottomCategorys{
+    /* width: 300vw; */
+    height: 5vh;
+    display: flex;
+    /* marginr: ; */
+    background-color: aqua;
+    overflow: hidden;
+}
+.BottomCategorys p{
+    margin-right: 5%;
+}
+@keyframes slide{
+    from{
+        transform: translateX(x);
+    }
+    to{
+        transform: translateX(-100%);
+
+    }
+}

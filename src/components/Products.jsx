@@ -6,6 +6,12 @@ export function Products() {
     return(
         <section className="Products">
             <div className="Cards">
+            <CardProducts></CardProducts>
+            <CardProducts></CardProducts>
+            <CardProducts></CardProducts>
+            <CardProducts></CardProducts>
+            <CardProducts></CardProducts>
+            <CardProducts></CardProducts>
                 <CardProducts></CardProducts>
                 <CardProducts></CardProducts>
                 <CardProducts></CardProducts>

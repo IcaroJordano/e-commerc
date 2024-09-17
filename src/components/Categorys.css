@@ -69,17 +69,17 @@
     
     div .swiper-button-next,
     div .swiper-button-prev {
-      background-color: white;
+      /* background-color: white; */
       background-position: center;
-      background-size: 40px;
+      background-size: 70px;
       background-repeat: no-repeat;
       /* padding: 2px 8px; */
       border-radius: 100%;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       color: gray;
-      width: 10svw;
+      width: 10vw;
       height: 10vw;
-      opacity: 0.8;
+      /* opacity: 0.8; */
       margin: 0 3%;
     }
 
@@ -93,7 +93,7 @@
 
     .swiper-button-next::after,
     .swiper-button-prev::after {
-        scale: 0.3;
+        scale: 0.5;
         content: "";
     }
 
