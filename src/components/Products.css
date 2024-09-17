@@ -1,0 +1,7 @@
+.Products{
+    /* background-color: blue; */
+    /* height: 20vh; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
