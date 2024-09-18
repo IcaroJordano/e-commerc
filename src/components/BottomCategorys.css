@@ -1,20 +1,26 @@
-.BottomCategorys{
-    /* width: 300vw; */
-    height: 5vh;
+.logos{
+    margin-top: 5vh;
     display: flex;
-    /* marginr: ; */
-    background-color: aqua;
-    overflow: hidden;
+    /* overflow: scroll; */
+    margin-bottom: 10%;
+    padding-bottom: 5%;
 }
-.BottomCategorys p{
-    margin-right: 5%;
+.logos p{
+    animation: 7s slide infinite;
+    width: 50px;
+    /* background-color: aqua; */
+    padding: 0 5px;       
+    margin: 0 10%;
 }
+
+
+
 @keyframes slide{
     from{
         transform: translateX(x);
     }
     to{
-        transform: translateX(-100%);
+        transform: translateX(-40vw);
 
     }
 }
