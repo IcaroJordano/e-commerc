@@ -7,9 +7,9 @@ function Produto() {
   const [product,setProduct] = useState([])
   useEffect(()=>{
     fetch("https://api.escuelajs.co/api/v1/products?offset=0&limit=70").then((res)=>res.json()).then((date)=>{
-        console.log(date[2]) 
+        console.log(date[0].title) 
         let list=[]
-        for (let i=0;i<=9;i++){
+        for (let i=0;i<=15;i++){
           list.push(date[i])
         }
         setProduct(list)}
