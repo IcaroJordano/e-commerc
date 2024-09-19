@@ -19,10 +19,11 @@ function Produto() {
 },[])
   return (
     <div className='content'>
-        {product.map((item)=>(
-          <CardProducts price={item.price} text={item.title} imagem={item.images}></CardProducts>
-        
-        ))}
+      {product.map((item)=>(
+        <CardProducts price={item.price} text={item.title} imagem={item.images}></CardProducts>))
+      }
+      <p className="viewed" >Viewed 72 of 745 products</p>
+      <button>LOAD MORE</button>  
     </div>
   )
 }

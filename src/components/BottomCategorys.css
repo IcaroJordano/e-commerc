@@ -1,7 +1,7 @@
 .logos{
     margin-top: 5vh;
     display: flex;
-    /* overflow: scroll; */
+    overflow: hidden;
     margin-bottom: 10%;
     padding-bottom: 5%;
 }
