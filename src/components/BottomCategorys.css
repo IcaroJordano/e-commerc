@@ -1,15 +1,16 @@
 .logos{
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     display: flex;
-    /* overflow: scroll; */
+    overflow: scroll;
     margin-bottom: 10%;
     padding-bottom: 5%;
+    /* justify-content: space-between;  */
 }
 .logos p{
     animation: 7s slide infinite;
-    width: 50px;
+    /* width: 50px; */
     /* background-color: aqua; */
-    padding: 0 5px;       
+    /* padding: 0 5px;        */
     margin: 0 10%;
 }
 
