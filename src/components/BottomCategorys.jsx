@@ -3,12 +3,11 @@ import "./BottomCategorys.css"
 export function BottomCategorys() {
     return(
         <section className="logos">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>love</p>
-            <p>love</p>
-
+            <a href="">category1</a>
+            <a href="">category2</a>
+            <a href="">category3</a>
+            <a href="">category4</a>
+            <a href="">category5</a>
         </section>
     )
 }

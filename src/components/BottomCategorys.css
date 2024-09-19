@@ -5,9 +5,9 @@
     margin-bottom: 10%;
     padding-bottom: 5%;
 }
-.logos p{
+.logos a{
     animation: 7s slide infinite;
-    width: 50px;
+    /* width: 50px; */
     /* background-color: aqua; */
     padding: 0 5px;       
     margin: 0 10%;
@@ -20,7 +20,7 @@
         transform: translateX(x);
     }
     to{
-        transform: translateX(-40vw);
+        transform: translateX(-110vw);
 
     }
 }
