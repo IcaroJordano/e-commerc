@@ -1,13 +1,17 @@
+import { useState } from "react";
 import "./CardProducts.css"
 import { CiHeart } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 
+
 export function CardProducts({imagem,text,price}) {
+    const [Imagem, setImagem]=useState('')
+    // setImagem(imagem)
     return(
         <div className="CardProducts">
             <div className="image">
-                <img src={imagem} alt="" />
+                <img src={imagem}  onLoad={()=>{setImagem(imagem)}} alt="" />
                 {/* <CiHeart className="icon" ></CiHeart> */}
                 {/* <FaHeart></FaHeart> */}
                 <FaRegHeart></FaRegHeart>

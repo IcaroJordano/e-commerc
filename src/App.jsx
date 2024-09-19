@@ -9,12 +9,12 @@ import Produto from './components/Produto'
 function App() {
   return (
     <>
-      {/* <Navbar></Navbar>
+      <Navbar></Navbar>
       <Home></Home>
       <Categorys></Categorys>
-      <Products></Products>
-      <BottomCategorys></BottomCategorys> */}
+      {/* <Products></Products> */}
       <Produto></Produto>
+      <BottomCategorys></BottomCategorys>
     </>
   )
 }
