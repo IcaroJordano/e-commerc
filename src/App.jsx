@@ -4,6 +4,7 @@ import { Categorys } from './components/Categorys'
 import { Home } from './components/Home'
 import { Navbar } from './components/Navbar'
 import { Products } from './components/Products'
+import Produto from './components/Produto'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <Categorys></Categorys>
-      <Products></Products>
+      {/* <Products></Products> */}
+      <Produto></Produto>
       <BottomCategorys></BottomCategorys>
     </>
   )

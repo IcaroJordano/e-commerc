@@ -1,13 +1,13 @@
 .logos{
-    /* margin-top: 5vh; */
+    margin-top: 10vh;
     display: flex;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 10%;
     padding-bottom: 5%;
     /* justify-content: space-between;  */
 }
-.logos p{
-    animation: 7s slide infinite;
+.logos a{
+    animation: 8s slide infinite;
     /* width: 50px; */
     /* background-color: aqua; */
     /* padding: 0 5px;        */
@@ -21,7 +21,7 @@
         transform: translateX(x);
     }
     to{
-        transform: translateX(-40vw);
+        transform: translateX(-100vw);
 
     }
 }
