@@ -1,6 +1,7 @@
 import './App.css'
 import { BottomCategorys } from './components/BottomCategorys'
 import { Categorys } from './components/Categorys'
+import { Footer } from './components/Footer'
 import { Home } from './components/Home'
 import { Navbar } from './components/Navbar'
 import { Products } from './components/Products'
@@ -15,6 +16,7 @@ function App() {
       {/* <Products></Products> */}
       <Produto></Produto>
       <BottomCategorys></BottomCategorys>
+      <Footer></Footer>
     </>
   )
 }

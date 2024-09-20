@@ -5,6 +5,8 @@
     border-radius: 5%;
     /* height: 20vh; */
     margin-bottom: 5%;
+    overflow: hidden;
+
 }
 .CardProducts .image{
     position: relative;
@@ -45,9 +47,13 @@
     font-weight: 400;
     /* background-color: aqua; */
     width: 90%;
+    /* height: 1%; */
     display: flex;
+    text-wrap: nowrap;
     margin: 0 auto;
     color: #3c3d37c5;
+
+    /* animation: 8s slide infinite; */
 }
 .CardProducts .price{
     width: 90%;
@@ -57,3 +63,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #3C3D37;
 }
+.logos a{
+    /* width: 50px; */
+    /* background-color: aqua; */
+    /* padding: 0 5px;        */
+    margin: 0 10%;
+}
+
+
+
+/* @keyframes slide{
+    from{
+        transform: translateX(x);
+    }
+    to{
+        transform: translateX(-10vw);
+}} */
