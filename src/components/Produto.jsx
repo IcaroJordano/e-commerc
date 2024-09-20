@@ -6,10 +6,10 @@ import './Produto.css'
 function Produto() {
   const [product,setProduct] = useState([])
   useEffect(()=>{
-    fetch("https://api.escuelajs.co/api/v1/products?offset=0&limit=70").then((res)=>res.json()).then((date)=>{
+    fetch("https://api.escuelajs.co/api/v1/products?offset=0&limit=20").then((res)=>res.json()).then((date)=>{
         console.log(date[0].title) 
         let list=[]
-        for (let i=0;i<=15;i++){
+        for (let i=0;i<=19;i++){
           list.push(date[i])
         }
         setProduct(list)}

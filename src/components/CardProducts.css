@@ -1,18 +1,22 @@
 .CardProducts{
+
     /* margin-left: 3px; */
     width: 49vw;
+    border-radius: 5%;
     /* height: 20vh; */
     margin-bottom: 5%;
 }
 .CardProducts .image{
     position: relative;
-    height: 28vh;
+    height: 27vh;
     /* display: flex;
     align-items: center; */
     /* justify-content: center; */
     /* background-color: aqua; */
 }
 .CardProducts .image img{
+    border-top-left-radius: 5%;
+    border-top-right-radius:5% ;
     width: 100%;
     height: 26vh;
     z-index: 4;
