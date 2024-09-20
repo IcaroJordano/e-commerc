@@ -1,7 +1,7 @@
 .Navbar{
     z-index: 5;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 7vh;
     background-color: #0F0E0E;
     /* background-color: rgba(0, 0, 0, 0.904); */
@@ -36,6 +36,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
+    
     /* background-color: red; */
     /* /* height: 7vh; */
     width: 15%;

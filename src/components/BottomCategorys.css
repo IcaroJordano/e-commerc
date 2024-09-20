@@ -1,17 +1,24 @@
-.logos{
-    margin-top: 10vh;
+.bottomCategorys{
+    /* margin-top: 10vh; */
     display: flex;
     overflow: hidden;
-    margin-bottom: 10%;
-    padding-bottom: 5%;
+    padding: 5% 0%;
+    padding-left: 15%; 
+    /* margin-bottom: 10%; */
+    /* padding: 5% 0; */
+    /* align-items: center; */
+    /* background-color: aqua; */
     /* justify-content: space-between;  */
 }
-.logos a{
-    animation: 8s slide infinite;
+.bottomCategorys a{
+    text-wrap: nowrap;
+    color: #0485ca;
+    animation: 10s slide infinite;
     /* width: 50px; */
     /* background-color: aqua; */
     /* padding: 0 5px;        */
-    margin: 0 10%;
+    margin: 0 3%;
+    /* margin-left: 10%; */
 }
 
 
@@ -21,7 +28,7 @@
         transform: translateX(x);
     }
     to{
-        transform: translateX(-100vw);
+        transform: translateX(-110vw);
 
     }
 }

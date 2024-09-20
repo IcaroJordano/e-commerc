@@ -15,7 +15,7 @@ function App() {
       <Categorys></Categorys>
       {/* <Products></Products> */}
       <Produto></Produto>
-      <BottomCategorys></BottomCategorys>
+      {/* <BottomCategorys></BottomCategorys> */}
       <Footer></Footer>
     </>
   )
