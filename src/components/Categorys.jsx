@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { CardCategorys } from "./CardCategorys";
 
 export function Categorys(){
   return (
@@ -18,18 +19,18 @@ export function Categorys(){
     className="carroseu"
 // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={1}
+      spaceBetween={5}
+      slidesPerView={1.5}
       navigation
       // pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide className='style slide'><div className="Card">1</div></SwiperSlide>
-      <SwiperSlide className='style slide'><div className="Card">2</div></SwiperSlide>
-      <SwiperSlide className='style slide'><div className="Card">3</div></SwiperSlide>
-      <SwiperSlide className='style slide'><div className="Card">4</div></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
 
     </Swiper>
     </div>

@@ -1,6 +1,6 @@
 .Categorys{
     /* background-color: red; */
-    height: 60vh;
+    height: 50vh;
     display: flex;
     /* width: 9=0%; */
     margin: auto;
@@ -19,7 +19,8 @@
 
 
 .carroseu{
-    /* background-color: antique-white; */
+  height: 50%;
+    /* background-color: black; */
 }
 
 .Card{

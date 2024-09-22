@@ -1,0 +1,21 @@
+.CardCategorys{
+    width: 60vw;
+    height: 90%;
+    background-color: aquamarine;
+}
+.CardCategorys{
+    background-image: url("https://iili.io/dR1Eyiv.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 55vh; */
+    margin-left: 5%;
+    width: 94vw;
+    background-color: rgb(16, 9, 24);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
