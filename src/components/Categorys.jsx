@@ -20,10 +20,13 @@ export function Categorys(){
     fetch("https://api.escuelajs.co/api/v1/categories").then((res)=>res.json()).then((date)=>{
         console.log(date) 
         let list=[]
-        date.map((item)=>{
-          console.table(item.image)
-          list.push(item)
-        })
+        for (let i=0; i<5;i++){
+          list.push(date[i])
+        }
+        // let list=[]
+        // for (let i=0;i<=19;i++){
+        //   list.push(date[i])
+        // }
         setProduct(list)
       }
     
@@ -50,7 +53,13 @@ export function Categorys(){
           <SwiperSlide className='style slide' ><CardCategorys className="Card" image={item.image} name={item.name} ></CardCategorys></SwiperSlide>
 
         ))
-      }
+      }      
+      {/* {
+        product.map((item)=>(
+          <SwiperSlide className='style slide' ><CardCategorys className="Card" image={item.image} name={item.name} ></CardCategorys></SwiperSlide>
+
+        ))
+      } */}
       {/* <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
       <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
       <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>

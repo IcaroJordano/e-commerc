@@ -4,9 +4,12 @@
     display: flex;
     /* width: 9=0%; */
     margin: auto;
-}
+    width: 100%;
+    overflow: scroll;
+  }
 
 .Categorys .slide{
+
     /* background-color: rgb(11, 6, 31); */
     color:white;
     width: 10vw;
@@ -14,7 +17,7 @@
     justify-content: center;
     align-items: center;
     /* background-color: blue; */
-    animation: infinite 5s slideCategory ;
+    animation: infinite 20s slideCategory ;
 }
 @keyframes slideCategory{
   from{
@@ -27,6 +30,10 @@
 }
 
 .carroseu{
+  
+  position: absolute;
+  width: 100vw;
+  overflow: hidden;
   /* height: 50%; */
     /* background-color: black; */
 }
