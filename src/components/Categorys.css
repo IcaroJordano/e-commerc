@@ -4,6 +4,7 @@
     display: flex;
     /* width: 9=0%; */
     margin: auto;
+    margin-left: 2%;
     width: 100%;
     overflow: scroll;
   }
@@ -17,14 +18,14 @@
     justify-content: center;
     align-items: center;
     /* background-color: blue; */
-    animation: infinite 20s slideCategory ;
+    animation:   5s slideCategory ;
 }
 @keyframes slideCategory{
   from{
       transform: translateX(x);
   }
   to{
-      transform: translateX(-131vw);
+      transform: translateX(-133vw);
 
   }
 }
