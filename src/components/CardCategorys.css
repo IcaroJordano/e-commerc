@@ -45,7 +45,7 @@
     border-radius: 45px;
     opacity: 0.9;
 }
-/* @keyframes slide{
+@keyframes slide{
     from{
         transform: translateX(x);
     }
@@ -53,4 +53,4 @@
         transform: translateX(-110vw);
 
     }
-} */
+}
