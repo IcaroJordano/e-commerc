@@ -22,7 +22,7 @@ export function Categorys(){
         let list=[]
         date.map((item)=>{
           console.table(item.image)
-          list.push(item.image  )
+          list.push(item)
         })
         setProduct(list)
       }
@@ -47,7 +47,7 @@ export function Categorys(){
     >
       {
         product.map((item)=>(
-          <SwiperSlide className='style slide' ><CardCategorys className="Card" image={item}></CardCategorys></SwiperSlide>
+          <SwiperSlide className='style slide' ><CardCategorys className="Card" image={item.image} name={item.name} ></CardCategorys></SwiperSlide>
 
         ))
       }

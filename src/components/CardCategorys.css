@@ -25,20 +25,21 @@
 .CardCategorys h2{
     font-size: 18px;
     font-weight: 500;
-    position: relative;
-    bottom:-40%;
-    left: -10%;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
     /* color: #cae9ff; */
     font-family: 'Times New Roman', Times, serif;
     /* color: #e71d36; */
     text-decoration: underline;
 }
 .CardCategorys svg{
+    z-index: 6;
     background-color: white;
     color: #343a40;
-    position: relative;
-    top: -35%;
-    right: -14%;
+    position: absolute;
+    top: 5%;
+    right: 4%;
     padding: 1.5%;
     font-size: 25px;
     border-radius: 45px;
