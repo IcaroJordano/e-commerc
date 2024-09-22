@@ -3,9 +3,10 @@
     height: 20vh;
     background-color: aquamarine;
     position: relative;
+    overflow: hidden;
 }
 .CardCategorys{
-    background-image: url("https://iili.io/dR1Eyiv.jpg");
+    /* background-image: url("https://iili.io/dR1Eyiv.jpg"); */
     background-size: cover;
     background-position: center;
     /* height: 55vh; */
@@ -43,7 +44,7 @@
     border-radius: 45px;
     opacity: 0.9;
 }
-@keyframes slide{
+/* @keyframes slide{
     from{
         transform: translateX(x);
     }
@@ -51,4 +52,4 @@
         transform: translateX(-110vw);
 
     }
-}
+} */
