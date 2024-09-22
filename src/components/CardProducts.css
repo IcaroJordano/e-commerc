@@ -1,9 +1,10 @@
 .CardProducts{
-
+    background-color: white;
     /* margin-left: 3px; */
     width: 49vw;
     border-radius: 5%;
     /* height: 20vh; */
+    /* padding-bottom: 5%; */
     margin-bottom: 5%;
     overflow: hidden;
 
@@ -58,7 +59,7 @@
 .CardProducts .price{
     width: 90%;
     display: flex;
-    margin: 3% auto;
+    margin: 5% auto;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #3C3D37;
