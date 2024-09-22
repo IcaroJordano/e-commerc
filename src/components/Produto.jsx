@@ -6,12 +6,12 @@ import './Produto.css'
 function Produto() {
   const [product,setProduct] = useState([])
   useEffect(()=>{
-    fetch("https://api.escuelajs.co/api/v1/categories").then((res)=>res.json()).then((date)=>{
-        console.log(date) 
+    fetch("https://api.escuelajs.co/api/v1/categories/5/products").then((res)=>res.json()).then((date)=>{
+        // console.table(date) 
         let list=[]
         date.map((item)=>{
-          console.table(item.image)
-          list.push(item.image)
+          console.table(item)
+          list.push(item.images  )
         })
         setProduct(list)
       }
