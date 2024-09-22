@@ -3,17 +3,15 @@
     display: flex;
     width: 100vw;
     height: 7vh;
-    background-color: #0F0E0E;
-    /* background-color: rgba(0, 0, 0, 0.904); */
-    /* background-color: #2B2D42;
-    background-color: rgb(0, 0, 0); */
-    opacity: 2;
+    /* background-color: #0F0E0E; */
     /* border-bottom: solid 1px #33372C; */
     position: fixed;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     justify-content:space-between;
     align-items: center;
+    background-color: #edf2f4;
+    border-bottom: #e0e5e7 solid 1px;
 }
 .Navbar img{
     margin-left: 6%;
@@ -22,9 +20,9 @@
 }
 .Navbar svg{
     /* margin-left: 1%; */
-    color: white;
+    color: black;
     margin-top: 10%;
-    scale: 1.7;
+    scale: 1.8;
     /* margin-right: 5%; */
 }
 .Navbar .menu{
