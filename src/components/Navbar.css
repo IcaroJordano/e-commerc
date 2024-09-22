@@ -1,4 +1,5 @@
 .Navbar{
+    top: 0%;
     z-index: 5;
     display: flex;
     width: 100vw;
@@ -10,8 +11,8 @@
     /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     justify-content:space-between;
     align-items: center;
-    background-color: #edf2f4;
-    border-bottom: #e0e5e7 solid 1px;
+    background-color: #ffffff;
+    border-bottom: #bec3c5 solid 1px;
 }
 .Navbar img{
     margin-left: 6%;

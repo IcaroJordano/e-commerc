@@ -1,12 +1,12 @@
 .Home{
-    /* margin-top: 8vh; */
+    margin-top: 7vh;
     background-color: rgba(0, 0, 0, 0.904);
     background-image: url('../images/home.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* border: 1px solid black; */
-    color: rgba(255, 255, 255, 0.877);
+    color: rgb(255, 255, 255);
     color: #090a0e;
     height: 70vh;
     padding-top: 13%;
@@ -16,7 +16,7 @@
     justify-content: center;
     }
 .Home .background{
-    /* padding-top: 10%; */
+    padding-bottom: 5%;
     /* background-color: #2B2D42;
     background-color: rgba(0, 0, 0, 0.904);
     background-color: white; */
@@ -27,8 +27,8 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 55%;
-
+    /* top: 52%; */
+    bottom: 10%;
 }
 .Home .background h1{
     font-size: larger;
