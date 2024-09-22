@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import image from '../images/logo.svg'
+import image from '../images/Atlantic-black.svg'
 import { IoMenuOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
