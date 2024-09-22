@@ -20,13 +20,17 @@ export function Categorys(){
 // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={5}
-      slidesPerView={1.5}
-      navigation
+      slidesPerView={2.2}
+      // navigation
       // pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
+      <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
       <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
       <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>
       <SwiperSlide className='style slide'><CardCategorys></CardCategorys></SwiperSlide>

@@ -1,6 +1,6 @@
 .Categorys{
     /* background-color: red; */
-    height: 50vh;
+    height: 30vh;
     display: flex;
     /* width: 9=0%; */
     margin: auto;
@@ -14,12 +14,20 @@
     justify-content: center;
     align-items: center;
     /* background-color: blue; */
+    animation: infinite 5s slide;
+}
+@keyframes slide{
+  from{
+      transform: translateX(x);
+  }
+  to{
+      transform: translateX(-200vw);
 
+  }
 }
 
-
 .carroseu{
-  height: 50%;
+  /* height: 50%; */
     /* background-color: black; */
 }
 
