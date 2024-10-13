@@ -2,8 +2,8 @@
     padding-bottom: 10%;
 }
 .Products .Cards{
-    /* background-color: blue; */
     /* height: 20vh; */
+    background-color: blue;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -33,4 +33,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 2%;
     margin-top: 5%;
+}
+@media(min-width:768px){
+    .Products .Cards{
+        display: flex;
+        flex-direction: row;
+    }
+    .Products .Cards{
+        background-color: red;
+    }
 }

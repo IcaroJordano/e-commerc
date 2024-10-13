@@ -1,10 +1,23 @@
 body{
   /* height: 500vh; */
   /* overflow: hidden; */
-  background-color: #edf2f4;
+  background-color: #fafafa;
+  /* background-color: red; */
   /* background-color: #0a0908;
   background-color: #0F0E0E;
   color: #edf2f4
   
   ; */
+}
+.App{
+}
+html ::-webkit-scrollbar{
+  width: 2px;
+  background-color:#F5F5F7;
+}
+html ::-webkit-scrollbar-thumb{
+  /* border-radius: 25px; */
+  /* color: #10b981be; */
+  
+  background-color: #2b2d42;
 }

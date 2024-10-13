@@ -1,43 +1,70 @@
-.Navbar{
+.Navbar {
     top: 0%;
     z-index: 5;
     display: flex;
     width: 100vw;
     height: 7vh;
-    /* background-color: #0F0E0E; */
-    /* border-bottom: solid 1px #33372C; */
     position: fixed;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     border-bottom: #bec3c5 solid 1px;
 }
-.Navbar img{
+
+.Navbar img {
     margin-left: 6%;
     width: 40%;
-    height: 4.3vh;    
+    height: 4.3vh;
 }
-.Navbar svg{
+
+.Navbar svg {
     /* margin-left: 1%; */
     color: black;
     margin-top: 10%;
     scale: 1.8;
     /* margin-right: 5%; */
 }
-.Navbar .menu{
+
+.Navbar .menu {
     margin-top: 0%;
     margin-left: 4%;
     scale: 2.2;
 }
-.Navbar .add{
+
+.Navbar .add {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    
-    /* background-color: red; */
-    /* /* height: 7vh; */
     width: 15%;
     margin-right: 3%;
+}
+
+@media(min-width:768px) {
+    .Navbar {
+        height: 9vh;
+        background-color: #fafafa;
+        /* background-color: ; */
+        border: solid 2px  rgba(128, 128, 128, 0.13);
+        /* margin: 0% 10%; */
+        /* width: 100%; */
+        align-items: center;
+        /* opacity: 0.3; */
+    }
+    .Navbar .add{
+        /* background-color: #0fa2dbc5; */
+        height: 100%;
+        margin-right: 1%;
+        justify-content: space-around;
+        align-items: center;
+        width:10%;
+    }
+    .Navbar .add svg{
+        color: #2b2d42;
+        margin: 0%;
+        font-size: larger;
+        /* background-color: red; */
+    }
+    .Navbar img{
+        scale: 1.2;
+    }
 }

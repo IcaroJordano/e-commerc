@@ -2,6 +2,8 @@ import "./Categorys.css"
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
+import { useMediaQuery } from "@uidotdev/usehooks";
+
 import { useState } from 'react'
 import { useEffect } from 'react'
 
@@ -15,6 +17,7 @@ import 'swiper/css/scrollbar';
 import { CardCategorys } from "./CardCategorys";
 
 export function Categorys(){
+  const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
   const [product,setProduct] = useState([])
   useEffect(()=>{
     fetch("https://api.escuelajs.co/api/v1/categories").then((res)=>res.json()).then((date)=>{
@@ -40,11 +43,12 @@ export function Categorys(){
     className="carroseu"
 // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={5}
-      slidesPerView={2.2}
+      spaceBetween={4}
+      // slidesPerView={2.2}
+      slidesPerView={isSmallDevice ? "2.2" : "5"}
       // navigation
       // pagination={{ clickable: true }}
-      // scrollbar={{ draggable: true }}
+      // scrollbar={{ draggable: false }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >

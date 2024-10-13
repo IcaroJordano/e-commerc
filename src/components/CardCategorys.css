@@ -45,12 +45,11 @@
     border-radius: 45px;
     opacity: 0.9;
 }
-@keyframes slide{
-    from{
-        transform: translateX(x);
-    }
-    to{
-        transform: translateX(-110vw);
 
+@media(min-width:768px){
+    .CardCategorys{
+        width: 18vw;
+        height: 50vh;
+        border-radius: 5%;
     }
 }

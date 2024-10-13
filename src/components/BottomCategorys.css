@@ -1,16 +1,17 @@
-.bottomCategorys{
+.bottomCategorys {
     /* margin-top: 10vh; */
     display: flex;
     overflow: hidden;
     padding: 5% 0%;
-    padding-left: 15%; 
+    padding-left: 15%;
     /* margin-bottom: 10%; */
     /* padding: 5% 0; */
     /* align-items: center; */
     /* background-color: aqua; */
     /* justify-content: space-between;  */
 }
-.bottomCategorys a{
+
+.bottomCategorys a {
     text-wrap: nowrap;
     color: #0485ca;
     animation: 10s slide infinite;
@@ -23,12 +24,35 @@
 
 
 
+/* @keyframes slide {
+    from {
+        transform: translateX(x);
+    }
+
+    to {
+        transform: translateX(10);
+
+    }
+} */
 @keyframes slide{
     from{
         transform: translateX(x);
     }
     to{
-        transform: translateX(10);
+        transform: translateX(-110vw);
 
+    }
+}
+@media (min-width:768px) {
+    .bottomCategorys a {
+        animation: none;
+    }
+    .bottomCategorys{
+        width: 90%;
+        margin: 0%;
+        /* display: flex; */
+        justify-content: center;
+        padding: 3% 0%;
+        /* background-color: #0485ca; */
     }
 }

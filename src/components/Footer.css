@@ -60,3 +60,37 @@
     scale: 1.9;
     /* border-radius: 25%; */
 }
+@media(min-width:768px){
+    .footer{
+        margin: 5% 0 0 ;
+        padding: 0%;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }.footer img{
+        /* scale: 0.6; */
+        /* margin-right: 5%;    
+        margin-left: 5%;     */
+        width: 10%;
+        margin: 0%;
+        /* background-color: #22223b; */
+    }
+    .footer p{
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: 0%;
+        /* justify-content: space-between; */
+        text-align: center;
+        /* background-color: red; */
+        margin: 2% 0;
+    }
+    .footer .logos{
+        width: 35vw;
+        /* background-color: aqua; */
+        margin: 2% 0 4%;
+    }
+    .footer .logos svg{
+        scale: 2.5;
+    }
+
+}

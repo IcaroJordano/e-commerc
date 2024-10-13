@@ -1,4 +1,4 @@
-.Home{
+.Home {
     margin-top: 7vh;
     background-color: rgba(0, 0, 0, 0.904);
     background-image: url('../images/home.webp');
@@ -14,8 +14,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    }
-.Home .background{
+}
+
+.Home .background {
     padding-bottom: 5%;
     /* background-color: #2B2D42;
     background-color: rgba(0, 0, 0, 0.904);
@@ -30,11 +31,13 @@
     /* top: 52%; */
     bottom: 10%;
 }
-.Home .background h1{
+
+.Home .background h1 {
     font-size: larger;
     font-weight: 400;
 }
-.Home .background h1{
+
+.Home .background h1 {
     color: #edf2f4;
     /* position: absolute; */
     font-size: 30px;
@@ -45,7 +48,8 @@
     text-align: center;
     /* background-color: aqua; */
 }
-.Home img{
+
+.Home img {
     border-radius: 3px;
     /* margin-top: 10%; */
     height: 50vh;
@@ -56,7 +60,8 @@
     object-fit: cover;
     /* right:0 ; */
 }
-.Home p{
+
+.Home p {
     /* position: absolute; */
     /* bottom: 17%; */
     margin: 5%;
@@ -65,10 +70,11 @@
     /* margin-top: 25%; */
     color: #edf2f4;
     font-size: medium;
-    font-weight:200;
+    font-weight: 200;
     /* background-color: #2B2D42; */
 }
-.Home button{
+
+.Home button {
     display: flex;
     height: 10vh;
     width: 80%;
@@ -77,11 +83,58 @@
     border: none;
     /* border-radius: 5%; */
     color: rgba(0, 0, 0, 0.904);
-    margin: 2% auto ;
+    margin: 2% auto;
     justify-content: center;
     align-items: center;
     font-size: large;
     font-weight: 500;
     /* position: absolute; */
     bottom: 0%;
+}
+
+@media(min-width:768px) {
+    .Home {
+        margin-top: 9vh;
+        height: 60vh;
+        overflow: hidden;
+        background-position: 0%;
+        background-size: 70%;
+        /* z-index: 25; */
+
+    }
+
+    .Home .background {
+        /* opacity: 0.7; */
+        /* z-index: 25; */
+        right: 0%;
+        /* display: none; */
+        margin-top: 8vh;
+        top: 0%;
+        width: 30%;
+        height: 78vh;
+        justify-content: center;
+        /* align-items: baseline; */
+    background-color: #2b2d428e;
+
+    }
+
+    .Home .background h1 {
+        text-align: left;
+        margin-left: 5%;
+        /* background-color: #090a0e; */
+    }
+    .Home .background p {
+        /* background-color: #090a0e; */
+        text-align: left;
+        /* margin: 0%; */
+    }
+    .Home .background button {
+        width: 25%;
+        height: 7vh;
+        font-size: medium;
+        margin: 0% 0%;
+        position: absolute;
+        left: 8%;
+        bottom: 30%;
+    }
 }
